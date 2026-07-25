@@ -1,4 +1,4 @@
-# Stratos Empire Simulator🚀
+# Stratos-Startup Empire Simulator🚀
 
 Stratos Empire Simulator is a high-fidelity, interactive founder simulation dashboard built with **React** and **Vite**. It gamifies startup operations, corporate governance, and macro-environmental crisis survival. Rather than managing ideal growth curves, founders are exposed to realistic market chaos, rival pricing wars, employee poaching attempts, and an opinionated Board of Directors.
 
