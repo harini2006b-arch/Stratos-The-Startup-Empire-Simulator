@@ -1,10 +1,10 @@
-# Stratos Empire Simulator 🚀
+# Stratos Empire Simulator🚀
 
 Stratos Empire Simulator is a high-fidelity, interactive founder simulation dashboard built with **React** and **Vite**. It gamifies startup operations, corporate governance, and macro-environmental crisis survival. Rather than managing ideal growth curves, founders are exposed to realistic market chaos, rival pricing wars, employee poaching attempts, and an opinionated Board of Directors.
 
 ---
 
-## 🌟 Hackathon-Winning Features
+## Features
 
 ### 1. Generative "Black Swan" Event Engine
 - **Unpredictable Crises**: The simulation dynamically rolls for random macro-environmental shocks (15% monthly probability), including ad-network crashes, venture copycats, database corruptions, server loops, or lead engineer exit threats.
@@ -39,7 +39,7 @@ Stratos Empire Simulator is a high-fidelity, interactive founder simulation dash
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 - **Library**: React 19
 - **Build Tool**: Vite
 - **Data Visualizations**: Recharts (with `react-is` compiler resolution)
@@ -48,31 +48,6 @@ Stratos Empire Simulator is a high-fidelity, interactive founder simulation dash
 
 ---
 
-## 📦 Installation & Setup
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/your-username/stratos-empire-simulator.git
-   cd stratos-empire-simulator
-   ```
-
-2. **Install Dependencies**:
-   ```bash
-   npm install
-   ```
-
-3. **Run Local Dev Server**:
-   ```bash
-   npm run dev
-   ```
-   Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-4. **Build Production Assets**:
-   ```bash
-   npm run build
-   ```
-
----
 
 ## 📂 Project Structure
 
@@ -81,24 +56,24 @@ stratos-empire-simulator/
 ├── public/
 ├── src/
 │   ├── components/
-│   │   ├── BoardOfDirectors.jsx    # Live board chat bubbles
-│   │   ├── CommandCenter.jsx       # NLP Prompt-to-Pivot bar
-│   │   ├── CompetitorSwarm.jsx      # You vs Rival comparison charts
-│   │   ├── Customizer.jsx          # Theme selector & widgets toggle
-│   │   ├── Dashboard.jsx           # Main KPI & chart widgets
-│   │   ├── Financials.jsx          # Funding rounds & runway calculators
-│   │   ├── LoginOnboard.jsx        # Onboarding custom metric configurations
-│   │   ├── Logo.jsx                # Monogram vector monogram
-│   │   ├── MetricCard.jsx          # Mini widgets with line charts
-│   │   ├── RoadmapExpansion.jsx    # Milestones & market regions unlock
-│   │   ├── Sidebar.jsx             # Collapsible primary navigation
-│   │   ├── SimulationControls.jsx  # Time tick progress actions
-│   │   ├── SplashScreen.jsx        # Cockpit bootscreen
-│   │   └── WarRoom.jsx             # Crisis selection interface
+│   │   ├── BoardOfDirectors.jsx   
+│   │   ├── CommandCenter.jsx       
+│   │   ├── CompetitorSwarm.jsx      
+│   │   ├── Customizer.jsx          
+│   │   ├── Dashboard.jsx           
+│   │   ├── Financials.jsx          
+│   │   ├── LoginOnboard.jsx       
+│   │   ├── Logo.jsx                
+│   │   ├── MetricCard.jsx          
+│   │   ├── RoadmapExpansion.jsx    
+│   │   ├── Sidebar.jsx             
+│   │   ├── SimulationControls.jsx  
+│   │   ├── SplashScreen.jsx        
+│   │   └── WarRoom.jsx             
 │   ├── utils/
-│   │   └── mockData.js             # Simulation presets & calculators
-│   ├── App.jsx                     # State orchestrator & event loops
-│   ├── index.css                   # Global glassmorphic themes & warning keyframes
+│   │   └── mockData.js             
+│   ├── App.jsx                    
+│   ├── index.css                   
 │   └── main.jsx
 ├── index.html
 ├── package.json
